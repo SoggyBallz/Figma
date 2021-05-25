@@ -44,6 +44,8 @@ height: 118px;
 left: 95px;
 top: 109px;
 background-color: #9e9595;
+text-align: center;
+font-size: 40px;
 }
 .Ticket_button_2 {
     position: absolute;
@@ -52,6 +54,8 @@ height: 118px;
 left: 95px;
 top: 295px;
 background-color: #9e9595;
+text-align: center;
+font-size: 40px;
 }
 .Ticket_button_3 {
     position: absolute;
@@ -60,6 +64,8 @@ height: 125px;
 left: 95px;
 top: 481px;
 background-color: #9e9595;
+text-align: center;
+font-size: 40px;
 }
 .Ticket_button_4 {
     position: absolute;
@@ -68,4 +74,45 @@ height: 118px;
 left: 95px;
 top: 662px;
 background-color: #9e9595;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+}
+.Tickets {
+    position: absolute;
+width: 416px;
+height: 112px;
+left: 104px;
+top: 20px;
+font-size: 40px;
+text-align: center;
+
+}
+.Cancel_travel {
+    position: absolute;
+width: 424px;
+height: 117px;
+left: 937px;
+top: 649px;
+background: #3DD03A;
+text-align: center;
+font-size: 40px;
+}
+.Change_travel {
+    position: absolute;
+width: 424px;
+height: 117px;
+left: 937px;
+top: 817px;
+background: #3DD03A;
+text-align: center;
+font-size: 40px;
+}
+.Back {
+    position: absolute;
+width: 150px;
+height: 40px;
+background-color: red;
+text-align: center;
+font-size: 15px;
 }
