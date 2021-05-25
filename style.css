@@ -1,11 +1,19 @@
 body {
     background: #569E4B;
 }
-.Start_Button {
+.Klient_Button {
     background-color: #6D2222;
     height: 250px;
     width: 250px;
     left: 158px;
+    top: 267px;
+    position: absolute;
+}
+.Admin_Button {
+    background-color: #6D2222;
+    height: 250px;
+    width: 250px;
+    left: 973px;
     top: 267px;
     position: absolute;
 }
