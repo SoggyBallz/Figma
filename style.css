@@ -8,6 +8,9 @@ body {
     left: 158px;
     top: 267px;
     position: absolute;
+    text-align: center;
+    font-size: 40px;
+    
 }
 .Admin_Button {
     background-color: #6D2222;
@@ -16,4 +19,20 @@ body {
     left: 973px;
     top: 267px;
     position: absolute;
+    text-align: center;
+    font-size: 40px;
+}
+.Jesus {
+    position: absolute;
+width: 726px;
+height: 1037px;
+left: 720px;
+top: -13px;
+}
+.Tokyo {
+    position: absolute;
+width: 720px;
+height: 1024px;
+left: 0px;
+top: 7px;
 }
