@@ -116,3 +116,18 @@ background-color: red;
 text-align: center;
 font-size: 15px;
 }
+ul {
+   margin: 0;
+   padding: 0;
+   font-size: 30px;
+}
+li {
+    color: white;
+    text-decoration: none;
+}
+#myInput {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
