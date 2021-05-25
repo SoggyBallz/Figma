@@ -10,7 +10,7 @@ body {
     position: absolute;
     text-align: center;
     font-size: 40px;
-    
+    z-index: 1;
 }
 .Admin_Button {
     background-color: #6D2222;
@@ -21,6 +21,7 @@ body {
     position: absolute;
     text-align: center;
     font-size: 40px;
+    z-index: 1;
 }
 .Jesus {
     position: absolute;
