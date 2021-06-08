@@ -6,7 +6,6 @@
 <body>
   <div class="searchEngine">
     <input type="text" id="countryInput" onkeyup="country_search()" placeholder="Search for names...">
-    <input type="text" id="dateInput" onkeyup="date_search()" placeholder="Enter date (2021-06-20)...">
     <span class="validity"></span>
   </div>
   <div class="searchResults">
@@ -23,6 +22,9 @@
         <li><a href="/checkout">France</a></li>
         <li><a href="/checkout">Poland</a></li>
     </ul>
+    <div class="searchEngine">
+      <input type="text" id="dateInput" onkeyup="date_search()" placeholder="Enter date (yyyy-mm-dd)...">
+    </div>
     <ul id="dateUL">
         <li><a href="/checkout">2021-06-20</a></li>
         <li><a href="/checkout">2021-06-21</a></li>

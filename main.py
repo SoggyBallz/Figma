@@ -26,5 +26,12 @@ def admin_main():
 def admin_changes():
   return render_template("Admin_Changes.html")
 
+@app.route('/about')
+def about():
+  return render_template("About.html")
+
+@app.route('/reserve')
+def reserve():
+  return render_template("Reserve.html")
 
 app.run(host='0.0.0.0', port=8080)

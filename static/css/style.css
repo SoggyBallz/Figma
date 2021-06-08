@@ -5,7 +5,7 @@ body {
     background-color: #6D2222;
     height: 250px;
     width: 250px;
-    left: 159px;
+    left: 300px;
     top: 267px;
     position: absolute;
     text-align: center;
@@ -16,7 +16,7 @@ body {
     background-color: #6D2222;
     height: 250px;
     width: 250px;
-    left: 973px;
+    left: 1300px;
     top: 267px;
     position: absolute;
     text-align: center;
@@ -25,19 +25,19 @@ body {
 }
 .Jesus {
     position: absolute;
-width: 726px;
-height: 1037px;
-left: 720px;
-top: -13px;
+width: 1030px;
+height: 955px;
+left: 900px;
+top: 0px;
 }
 .Tokyo {
     position: absolute;
-width: 720px;
-height: 1024px;
+width: 930px;
+height: 955px;
 left: 0px;
-top: 7px;
+top: 0px;
 }
-.Ticket_button_1 {
+#mybtn1 {
     position: absolute;
 width: 434px;
 height: 118px;
@@ -47,7 +47,7 @@ background-color: #9e9595;
 text-align: center;
 font-size: 40px;
 }
-.Ticket_button_2 {
+#mybtn2 {
     position: absolute;
 width: 434px;
 height: 118px;
@@ -57,7 +57,7 @@ background-color: #9e9595;
 text-align: center;
 font-size: 40px;
 }
-.Ticket_button_3 {
+#mybtn3 {
     position: absolute;
 width: 434px;
 height: 125px;
@@ -67,7 +67,7 @@ background-color: #9e9595;
 text-align: center;
 font-size: 40px;
 }
-.Ticket_button_4 {
+#mybtn4 {
     position: absolute;
 width: 434px;
 height: 118px;
@@ -145,22 +145,26 @@ a {
   width: 60%;
     padding: 10px;
     font-size: 15px;
+    
 }
 .Search {
 display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 20%;
   height: 40px;
   border: 3px solid green;
   
 }
 .searchField
 {
-  display: flex;
+  position:relative;
+  display:flex;
   justify-content: center;
-  align-items: center;
-  height: 60px;
+  align-items: flex-end;
+  height: 170px;
+  background-color: rgb(128, 0, 128);
+  z-index: 0;
 }
 .searchEngine{
   text-align: center;   
@@ -171,3 +175,114 @@ text-align: center;
 margin-left:19.43%;
     
 }
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 40px;
+  border: 3px solid green;
+}
+.Log_out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 40px;
+  border: 3px solid green;
+}
+.Brazil {
+  text-align: center;
+  font-size: 70px;
+  color:rgb(70, 0, 128);
+  width: 100%;
+  
+}
+.brazil {
+  background-color: rgb(128, 0, 128);
+  height: 170px;
+  width: 2200px;
+  align-self: center;
+}
+.beez_nuts{
+  position:relative;
+  font-size: 37px;
+  background: #7ebe74;
+  width: 45%;
+  height: 800px;
+  align-content: center;
+  text-align: center;
+  margin-left: 28%;
+  top: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: -5;
+  box-sizing: border-box;
+}
+
+.bgJesus{
+  position: absolute;
+ z-index: -7;
+ width: 535px;
+ height: 400px;
+ top: 18%; 
+ }
+ .bgBeach{
+   position: absolute;
+ z-index: -7;
+ width: 535px;
+ height: 410px;
+ top:60%; 
+ }
+
+ .bgPlane{
+   position: absolute;
+ z-index: -7;
+ width: 525px;
+ height: 400px;
+ top: 18%;
+ left: 72%; 
+ }
+ .bgyes{
+  position: absolute;
+ z-index: -7;
+ width: 525px;
+ height: 410px;
+ top: 60%;
+ left: 72%
